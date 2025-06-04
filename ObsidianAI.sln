@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0ECA1CCC-60CA-4874-B8BC-F82FE5AC47E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C17ABB07-6A6C-48F8-8C86-7003B2BA7B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsidianAI.Core", "ObsidianAI.Core\ObsidianAI.Core.csproj", "{FABF2246-CA85-4EA4-8461-A096A1979B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsidianAI.Shared", "ObsidianAI.Shared\ObsidianAI.Shared.csproj", "{7CEE2646-3F03-4678-BC25-A4EA2CCE6163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsidianAI.Core.Tests", "ObsidianAI.Core.Tests\ObsidianAI.Core.Tests.csproj", "{AF0BFF2C-858D-4109-98B1-2260AFC2F5CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FABF2246-CA85-4EA4-8461-A096A1979B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABF2246-CA85-4EA4-8461-A096A1979B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABF2246-CA85-4EA4-8461-A096A1979B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABF2246-CA85-4EA4-8461-A096A1979B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEE2646-3F03-4678-BC25-A4EA2CCE6163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEE2646-3F03-4678-BC25-A4EA2CCE6163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEE2646-3F03-4678-BC25-A4EA2CCE6163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEE2646-3F03-4678-BC25-A4EA2CCE6163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0BFF2C-858D-4109-98B1-2260AFC2F5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0BFF2C-858D-4109-98B1-2260AFC2F5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0BFF2C-858D-4109-98B1-2260AFC2F5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0BFF2C-858D-4109-98B1-2260AFC2F5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FABF2246-CA85-4EA4-8461-A096A1979B38} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
+		{7CEE2646-3F03-4678-BC25-A4EA2CCE6163} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
+		{AF0BFF2C-858D-4109-98B1-2260AFC2F5CC} = {0ECA1CCC-60CA-4874-B8BC-F82FE5AC47E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83546DA4-73D8-44F7-A6A9-3EF5D3AA97AD}
+	EndGlobalSection
+EndGlobal
